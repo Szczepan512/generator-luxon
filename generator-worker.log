@@ -1,0 +1,28 @@
+  2024-10-03 23:48:42 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+"Maksymalna ilość opraw w jednym obwodzie dla:    " // app/Jobs/GenerateIndividualCardJob.php:809
+  2024-10-03 23:49:23 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+"Maksymalna ilość opraw w jednym obwodzie dla:    " // app/Jobs/GenerateIndividualCardJob.php:809
+  2024-10-03 23:54:25 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:54:25 App\Jobs\GenerateIndividualCardJob ........ 64.12ms FAIL
+  2024-10-03 23:56:01 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:56:01 App\Jobs\GenerateIndividualCardJob ........ 26.16ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ........ 26.47ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 6.69ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 8.16ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 7.82ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 7.95ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 8.07ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 8.77ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 8.03ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 7.91ms DONE
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ............. RUNNING
+  2024-10-03 23:59:26 App\Jobs\GenerateIndividualCardJob ......... 9.05ms DONE

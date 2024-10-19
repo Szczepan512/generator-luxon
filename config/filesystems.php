@@ -40,7 +40,7 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
+            'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
             'throw' => false,
         ],
@@ -55,6 +55,107 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
             'throw' => false,
+        ],
+
+
+
+
+        'devst_ftp' => [
+            'driver' => 'ftp',
+            'host' => env('DEV_HOST'),
+            'username' => env('DEV_USERNAME'),
+            'password' => env('DEV_PASSWORD'),
+            'root' => env('DEV_ROOT'),
+            'passive' => true,
+            'ssl' => true,
+            'timeout' => 30,
+            'ignorePassiveAddress' => true,
+        ],
+
+        'individual_luxon_ftp_pl' => [
+            'driver' => 'ftp',
+            'host' => env('PL_INDIVIDUAL_FTP_HOST'),
+            'username' => env('PL_INDIVIDUAL_FTP_USERNAME'),
+            'password' => env('PL_INDIVIDUAL_FTP_PASSWORD'),
+            'root' => env('PL_INDIVIDUAL_FTP_ROOT'),
+            'passive' => true,
+            'ssl' => true,
+            'timeout' => 30,
+            'ignorePassiveAddress' => true,
+        ],
+
+        'individual_luxon_ftp_de' => [
+            'driver' => 'ftp',
+            'host' => env('DE_INDIVIDUAL_FTP_HOST'),
+            'username' => env('DE_INDIVIDUAL_FTP_USERNAME'),
+            'password' => env('DE_INDIVIDUAL_FTP_PASSWORD'),
+            'root' => env('DE_INDIVIDUAL_FTP_ROOT'),
+            'passive' => true,
+            'ssl' => true,
+            'timeout' => 30,
+            'ignorePassiveAddress' => true,
+        ],
+
+        'individual_luxon_ftp_en' => [
+            'driver' => 'ftp',
+            'host' => env('EN_INDIVIDUAL_FTP_HOST'),
+            'username' => env('EN_INDIVIDUAL_FTP_USERNAME'),
+            'password' => env('EN_INDIVIDUAL_FTP_PASSWORD'),
+            'root' => env('EN_INDIVIDUAL_FTP_ROOT'),
+            'passive' => true,
+            'ssl' => true,
+            'timeout' => 30,
+            'ignorePassiveAddress' => true,
+        ],
+
+        'family_luxon_ftp_pl' => [
+            'driver' => 'ftp',
+            'host' => env('PL_FAMILY_FTP_HOST'),
+            'username' => env('PL_FAMILY_FTP_USERNAME'),
+            'password' => env('PL_FAMILY_FTP_PASSWORD'),
+            'root' => env('PL_FAMILY_FTP_ROOT'),
+            'passive' => true,
+            'ssl' => true,
+            'timeout' => 30,
+            'ignorePassiveAddress' => true,
+        ],
+
+        'family_luxon_ftp_de' => [
+            'driver' => 'ftp',
+            'host' => env('DE_FAMILY_FTP_HOST'),
+            'username' => env('DE_FAMILY_FTP_USERNAME'),
+            'password' => env('DE_FAMILY_FTP_PASSWORD'),
+            'root' => env('DE_FAMILY_FTP_ROOT'),
+            'passive' => true,
+            'ssl' => true,
+            'timeout' => 30,
+            'ignorePassiveAddress' => true,
+        ],
+
+        'family_luxon_ftp_en' => [
+            'driver' => 'ftp',
+            'host' => env('EN_FAMILY_FTP_HOST'),
+            'username' => env('EN_FAMILY_FTP_USERNAME'),
+            'password' => env('EN_FAMILY_FTP_PASSWORD'),
+            'root' => env('EN_FAMILY_FTP_ROOT'),
+            'passive' => true,
+            'ssl' => true,
+            'timeout' => 30,
+            'ignorePassiveAddress' => true,
+        ],
+
+
+        'luxon_ftp' => [
+            'driver' => 'ftp',
+            'host' => env('LUXON_FTP_HOST'),
+            'username' => env('LUXON_FTP_USERNAME'),
+            'password' => env('LUXON_FTP_PASSWORD'),
+            'root' => env('LUXON_FTP_ROOT'),
+            // 'passive' => true,
+            'passive' => false,
+            'ignorePassiveAddress' => true,
+            'ssl' => true,
+            // 'timeout' => 30,
         ],
 
     ],

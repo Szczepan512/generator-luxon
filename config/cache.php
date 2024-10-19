@@ -33,6 +33,9 @@ return [
 
     'stores' => [
 
+        'none' => [
+            'driver' => 'null',
+        ],
         'array' => [
             'driver' => 'array',
             'serialize' => false,
